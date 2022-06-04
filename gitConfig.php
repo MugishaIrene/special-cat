@@ -10,9 +10,9 @@ require_once 'Github_OAuth_Client.php';
 /*
  * Configuration and setup GitHub API
  */
-$clientID         = 'bccf00f15cfea1df3d73';
-$clientSecret     = '412db27044f3ec802d2735dfd80ca66f018c022f';
-$redirectURL     = 'http://localhost/special_cat/home.php';
+$clientID         = 'bc7eb283bf999b6d8683';
+$clientSecret     = '92f7c2389f131c73d17364d539a9be770cba170c';
+$redirectURL     = 'http://localhost/special_cat/special-cat/home.php';
 
 $gitClient = new Github_OAuth_Client(array(
     'client_id' => $clientID,
